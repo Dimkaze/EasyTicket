@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Pathway+Gothic+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Barcode+39&display=swap');
+body{
+    background-color: aquamarine;
+    width:100vw;
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Pathway Gothic One', sans-serif;
+    letter-spacing: 1.5px;
+}
+button{
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+button:focus{
+    outline: 0;
+}
+.ticket{
+  height: 320px;
+  max-width: 940px;
+  min-width: 540px;
+  width: 90%;
+  background-color: rgb(102, 100, 237);
+  display: grid;
+  grid-template-rows: 15% 85%;
+  grid-template-columns: 100%;
+  
+}
+.head{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url('https://images-ext-1.discordapp.net/external/TkrVazm60MLZbquYflEFKrwFs3yTc8Acp2CdWkMg5nY/https/www.pngarts.com/files/2/Black-Abstract-Lines-PNG-Free-Download.png')
+}
+.ticket-body{
+    background-color: #ffffff;
+    display: grid;
+    grid-template-rows: 100%;
+    grid-template-columns: 12.5% 32.5% 55%;
+    padding: 10px;
+    background-image: url('https://images-ext-2.discordapp.net/external/zNNKioFntcjsSdXSd4k93G6Iti-7I2ErCar3TbAb2Fk/https/www.onlygfx.com/wp-content/uploads/2019/11/9-soft-grunge-texture-3-1.png?width=855&height=669')
+}
+.body-logo{
+    background-image: url('http://blog.codepen.io/wp-content/uploads/2012/06/Black-Large.png%27');
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.barcode-conteiner{
+    display: grid;
+    grid-template-rows: 2fr 1fr;
+}
+.event{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/EVE_Logo.svg/2000px-EVE_Logo.svg.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.code{
+    background-image: url('https://media.discordapp.net/attachments/758479446926819339/812452443677261844/unknown.png');
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.data{
+    background-image: url('https://media.discordapp.net/attachments/758479446926819339/812454274331181116/unknown.png');
+    background-size: contain;
+}
